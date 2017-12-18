@@ -1,2 +1,3 @@
-import os;
-f = open('f:/xx.ico', 'r');
+from PIL import Image
+im = Image.open('F:/xx.ico', 'r');
+im.show()
