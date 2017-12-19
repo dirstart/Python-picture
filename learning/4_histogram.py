@@ -1,3 +1,5 @@
+# 直方图均衡化操作后的灰度图
+
 from PIL import Image  
 from numpy import *  
 from pylab import *  
@@ -41,7 +43,7 @@ def beautyImage(im_arr):
     return histImageArr(im_arr, cdf)  
   
   
-im_source = Image.open('1.jpg')  
+im_source = Image.open('x.jpg')  
   
 if True:  
     im_source.show()  
